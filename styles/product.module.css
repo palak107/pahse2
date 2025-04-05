@@ -1,0 +1,105 @@
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;  /* Increased width */
+    min-height: 400px;  /* Increased height */
+    border: solid 2px rgb(248, 244, 244);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product_info {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product_title {
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger title */
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product_price {
+    font-size: 16px;
+}
+
+.product_rating {
+    display: flex;
+    justify-content: center;
+    gap: 3px; /* Small gap between stars */
+    margin-bottom: 12px;
+}
+
+.product img {
+    max-height: 200px; /* Increased image size */
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.product button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: auto;
+    font-weight: bold;
+}
+.product_prime {
+    display: flex;
+    align-items: center; /* Centers logo and text vertically */
+    justify-content: center; /* Centers logo and text horizontally */
+    margin-top: 10px; /* Adds some space above the Prime logo */
+    font-size: 14px; /* Adjusts text size */
+    color: #007185; /* Matches Amazon Prime's branding color */
+}
+
+.product_prime img {
+    height: 20px; /* Adjusts the height of the Prime logo */
+    width: auto; /* Keeps the aspect ratio intact */
+    margin-right: 5px; /* Adds spacing between the logo and the text */
+}
+/* CSS */
+.newReleaseBadge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .newReleaseBadge span {
+    position: absolute;
+    top: 10px;
+    right: -16px;
+    width: 70px;
+    padding: 3px 0;
+    background: #FFD814;
+    color: #0F1111;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  .ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #FFD814 transparent transparent #FFD814;
+  }

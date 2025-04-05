@@ -1,0 +1,55 @@
+.display {
+    display: flex;
+}
+
+.date {
+    border: 2px solid rgb(236, 231, 231);
+    border-radius: 9px;
+    padding: 5px;
+    margin: auto;
+    width: fit-content;
+    block-size: fit-content;
+    color: rgb(60, 60, 60);
+}
+
+.chekout_info > button { /* Corrected selector */
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.chekout_info > button:hover { /* Corrected selector */
+    background-color: #ddb347;
+}
+/* Stock status styles */
+.stock {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 8px 0;
+  }
+  
+  .inStock {
+    background-color: #e6f4ea;
+    color: #067d62;
+    border: 1px solid #067d62;
+  }
+  
+  .lowStock {
+    background-color: #fff0e6;
+    color: #c7511f;
+    border: 1px solid #c7511f;
+  }
+  
+  .outOfStock {
+    background-color: #f6f6f6;
+    color: #b12704;
+    border: 1px dashed #b12704;
+  }
